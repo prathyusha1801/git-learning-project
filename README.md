@@ -1,12 +1,13 @@
 # Git Workflow:
-This project is for learning Git commands and Github workflow process
+This project is for learning Git commands and Git workflow process
 
 ![gitworkflow](https://user-images.githubusercontent.com/119354305/207989394-ef9a2b1a-eb92-4cf6-9276-df3f959dc38c.png)
 
+
 # Git Commands:
 
-========================================================================================
-## GitIgnore file importance in git:
+
+## Gitignore file importance in git:
 
 /test.txt           // ignore file which is in untracking phase at root level
 
