@@ -3,18 +3,22 @@ This project is for learning Git commands and Github workflow process
 ========================================================================================
 # GitIgnore file importance in git:
 
-#                 // Comments
 /test.txt         // ignore file which is in untracking phase at root level
+
 /project/test.txt // ignore file which is in untracking phase at specified level
+
  *.js             // Ignore all files in the project with that extension
+
  build/           // ignore the folder
+
  !main.js         // donot ignore this file
-====================================================================================
+
+
 # Git commit:
 
 git commit verbose : git commit -v
 
-====================================================================================
+
 # Git log command :
 
 git log -p
@@ -25,7 +29,7 @@ git log --oneline --all //all logs in one line
 git log --oneline --graph --all //oneline log in graphical rep
 git show <commitID> //shows commitID info
 
-====================================================================================
+
 # Git Remote Branching:
 
 #Git Branch commands:
@@ -46,7 +50,7 @@ OR
 
 git pull origin master
 
-====================================================================================
+
 #My own assumption below:
 
 In below text, Remote repository is always treated as origin,
@@ -54,18 +58,18 @@ It had a HEAD and default branch main (local and remote)
 HEAD -->main, origin/main, origin/HEAD
 (local)-->(local), (remote)/(remote), (remote)/(remote)
 
-====================================================================================
+
 # Git Diff:
 
 Git Merge:
 Perforace tool installed on Mac. Need to configure
-====================================================================================
+
 #Git Alias:
 
 git config --global alias.alllogs "git log --oneline --graph --all" //shorthand
 notation for long length command
 
-====================================================================================
+
 #Git Stashing:
 
 git stash push or git stash // it will work on tracked files in stagged area only
@@ -77,7 +81,7 @@ git stash pop // apply + drop
 git stash -u //this will stash untracked files to stack
 git stash branch oldidea //stashes branch
 
-========================================================================================
+
 #Git Cleaning:
 
 git clean -f  //forcefully
@@ -86,13 +90,13 @@ git clean -x //permanently delete all untracked files in .gitignore
 git clean -fdx //all above three operations
 git clean -f --dry-run //dry run
 
-========================================================================================
+
 #Git Rebase:
 
 we have to be on master or main branch and run below command
 git rebase <feature1-branch> //rebase
 
-========================================================================================
+
 #Git Tagging:
 
 git tag v1.0 //light weight tag
