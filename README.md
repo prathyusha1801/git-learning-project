@@ -3,15 +3,15 @@ This project is for learning Git commands and Github workflow process
 ========================================================================================
 # GitIgnore file importance in git:
 
-/test.txt         // ignore file which is in untracking phase at root level
+/test.txt           // ignore file which is in untracking phase at root level
 
-/project/test.txt // ignore file which is in untracking phase at specified level
+/project/test.txt   // ignore file which is in untracking phase at specified level
 
- *.js             // Ignore all files in the project with that extension
+ *.js               // Ignore all files in the project with that extension
 
- build/           // ignore the folder
+ build/             // ignore the folder
 
- !main.js         // donot ignore this file
+ !main.js           // donot ignore this file
 
 
 # Git commit:
