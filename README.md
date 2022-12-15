@@ -74,13 +74,13 @@ Git Merge:
 
 Perforace tool installed on Mac. Need to configure
 
-#Git Alias:
+# Git Alias:
 
 git config --global alias.alllogs "git log --oneline --graph --all" //shorthand
 notation for long length command
 
 
-#Git Stashing:
+# Git Stashing:
 
 git stash push or git stash // it will work on tracked files in stagged area only
 
@@ -99,7 +99,7 @@ git stash -u //this will stash untracked files to stack
 git stash branch oldidea //stashes branch
 
 
-#Git Cleaning:
+# Git Cleaning:
 
 git clean -f  //forcefully
 
@@ -112,14 +112,14 @@ git clean -fdx //all above three operations
 git clean -f --dry-run //dry run
 
 
-#Git Rebase:
+# Git Rebase:
 
 we have to be on master or main branch and run below command
 
 git rebase <feature1-branch> //rebase
 
 
-#Git Tagging:
+# Git Tagging:
 
 git tag v1.0 //light weight tag
 
