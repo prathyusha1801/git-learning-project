@@ -1,11 +1,11 @@
+# This project is for learning Git commands and Git workflow process
+
 # Git Workflow:
-This project is for learning Git commands and Git workflow process
 
 ![gitworkflow](https://user-images.githubusercontent.com/119354305/207989394-ef9a2b1a-eb92-4cf6-9276-df3f959dc38c.png)
 
 
 # Git Commands:
-
 
 ## Gitignore file importance in git:
 
