@@ -1,11 +1,12 @@
-# git-learning-project
-This project is for learning Git commands and Github workflow process
-========================================================================================
 # Git Workflow:
+This project is for learning Git commands and Github workflow process
+
 ![gitworkflow](https://user-images.githubusercontent.com/119354305/207989394-ef9a2b1a-eb92-4cf6-9276-df3f959dc38c.png)
 
+# Git Commands:
 
-# GitIgnore file importance in git:
+========================================================================================
+## GitIgnore file importance in git:
 
 /test.txt           // ignore file which is in untracking phase at root level
 
@@ -18,12 +19,12 @@ This project is for learning Git commands and Github workflow process
  !main.js           // donot ignore this file
 
 
-# Git commit:
+## Git commit:
 
-git commit verbose : git commit -v
+git commit -v // git commit verbose
 
 
-# Git log command :
+## Git log command :
 
 git log -p // shows the changes for each commit
 
@@ -38,9 +39,9 @@ git log --oneline --graph --all //oneline log in graphical rep
 git show <commitID> //shows commitID info
 
 
-# Git Remote Branching:
+## Git Remote Branching:
 
-#Git Branch commands:
+## Git Branch commands:
 git branch <branch-name> //create new branch
 
 git checkout <branch-name> //switching of branches
@@ -51,7 +52,7 @@ git fetch origin //fetch
 
 git branch -a //list all branches on local
 
-##output display on local git
+### output display on local git
 
 remotes/origin/HEAD --> origin/main //log
 
@@ -64,7 +65,7 @@ OR
 git pull origin master
 
 
-#My own assumption below:
+### My own assumption below:
 
 In below text, Remote repository is always treated as origin,
 It had a HEAD and default branch main (local and remote)
@@ -72,19 +73,19 @@ HEAD -->main, origin/main, origin/HEAD
 (local)-->(local), (remote)/(remote), (remote)/(remote)
 
 
-# Git Diff:
+## Git Diff:
 
-Git Merge:
+## Git Merge:
 
 Perforace tool installed on Mac. Need to configure
 
-# Git Alias:
+## Git Alias:
 
 git config --global alias.alllogs "git log --oneline --graph --all" //shorthand
 notation for long length command
 
 
-# Git Stashing:
+## Git Stashing:
 
 git stash push or git stash // it will work on tracked files in stagged area only
 
@@ -103,7 +104,7 @@ git stash -u //this will stash untracked files to stack
 git stash branch oldidea //stashes branch
 
 
-# Git Cleaning:
+## Git Cleaning:
 
 git clean -f  //forcefully
 
@@ -116,14 +117,14 @@ git clean -fdx //all above three operations
 git clean -f --dry-run //dry run
 
 
-# Git Rebase:
+## Git Rebase:
 
 we have to be on master or main branch and run below command
 
 git rebase <feature1-branch> //rebase
 
 
-# Git Tagging:
+## Git Tagging:
 
 git tag v1.0 //light weight tag
 
